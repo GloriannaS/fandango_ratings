@@ -1,2 +1,9 @@
-# popular_fandango_ratings
-Analyzing data to identify any differences in the ratings of popular Fandango movies between 2015 and 2016
+# Fandango Ratings
+
+In most, if not all, industries, customer ratings are very important. The better the ratings, the more people will be attracted, and the more successful the industry or company will be in the long run. Some might say that in this day and age, ratings measure or represent prosperity. However, from the customers' point of view, they heavily rely on the accuracy of these ratings. With so much available online nowadays, you can’t touch, see, or feel something before you purchase it. Since you can’t physically assess the quality, you have to rely completely on the opinions of others who have experienced it firsthand. In other words, ratings require our trust. But are they worthy of it? How can we tell?
+
+For some types of reviews, like video reviews, it’s easier to determine if the review is good or not. Even in written reviews, some judgment of the review’s quality can still be made. However, certain industries, companies, or products use numerical or star ratings. How can we assess the quality of those? The answer to this problem is that you’ll need to do some legwork. In other words, you’ll have to conduct additional research to verify the accuracy of the ratings already given.
+
+In October 2015, one man set out to do just that. Walt Hickey, a data journalist, was determined to discover the accuracy of Fandango movie ratings, which use a 1-5 star system. To his surprise, he found, using the HTML data from Fandango, that they were rounding up all their ratings to the next half star! For example, if a film had a rating of 3.1, they would round it up to 3.5 instead of down to 3. Walt Hickey published his findings in [an article](https://fivethirtyeight.com/features/fandango-movies-ratings/). When Fandango read it, they claimed that there had been an error in their calculations, that it had not been intentional, and that they would fix the ratings immediately.
+
+This brings us to the guided Dataquest project I am constructing today. The goal of this project is simple: to examine the Fandango ratings from 2016 and 2017 to see if they indeed kept their word and corrected their review values.
